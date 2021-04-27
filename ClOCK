@@ -1,0 +1,19 @@
+public class ClOCK{
+    public int hours;
+    public int mins;
+    public int sec;
+    
+    public ClOCK(int x, int y, int z){
+        this.hours = x;
+        this.mins = y;
+        this.sec = z;
+        
+    }
+    
+    public void display(){
+        System.out.println(hours+":"+mins+":"+sec);
+    }
+    
+    
+    
+}
