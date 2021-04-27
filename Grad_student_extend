@@ -1,0 +1,7 @@
+public class GradStudent extends Student {
+    
+    public void takeExam(){
+        System.out.println(" written paper ");
+    }
+    
+}
