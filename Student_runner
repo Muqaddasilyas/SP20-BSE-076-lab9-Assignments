@@ -1,0 +1,9 @@
+public class runner {
+    public static void main(String[]arg){
+        Student s = new PhdStudent();
+        Student s1 = new GradStudent();
+        s.takeExam();
+        s1.takeExam();
+    }
+    
+}
