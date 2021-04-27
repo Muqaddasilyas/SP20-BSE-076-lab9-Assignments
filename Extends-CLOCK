@@ -1,0 +1,21 @@
+public class time extends ClOCK{
+    
+    public time(int x, int y, int z){
+        super(x, y, z);
+        
+    }
+    @Override
+    public void display(){
+        
+        if (super.hours<=12){
+        System.out.println(super.hours+":"+super.mins+":"+super.sec+"am");
+    }
+        else{
+            super.hours = super.hours - 12;
+            System.out.println(super.hours+":"+super.mins+":"+super.sec+"pm");
+    }
+        
+        System.out.println(super.hours+":"+super.mins+":"+super.sec);
+    }
+    
+}
