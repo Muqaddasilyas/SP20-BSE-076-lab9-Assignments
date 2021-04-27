@@ -1,0 +1,10 @@
+public class PhdStudent extends Student{
+    
+    
+    @Override
+    public void takeExam(){
+        System.out.println("final defense presentation");
+    }
+    
+    
+}
