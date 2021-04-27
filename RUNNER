@@ -1,0 +1,8 @@
+public class RUNNER {
+    
+    public static void main(String[]arg){
+        CLOCK C = new time(22, 17, 57);
+        C.display();
+    }
+    
+}
